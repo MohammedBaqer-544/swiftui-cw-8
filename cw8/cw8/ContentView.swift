@@ -38,7 +38,7 @@ struct thekerBtn: View {
             Spacer()
             
             Text(lable)
-                .font(.title)
+                .font(.custom("(A) Arslan Wessam A (A) Arslan Wessam A", size: 55))
             
             Button(action: {
                 counter += 1
@@ -49,6 +49,7 @@ struct thekerBtn: View {
                     .background(Color.green)
                     .clipShape(Circle())
                     .padding()
+                    .font(.custom("ReemKufi-Regular", size: 30))
                     
             })
         }
